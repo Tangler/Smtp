@@ -12,6 +12,7 @@ class Module extends AbstractModule implements ModuleInterface
         $this->setKey('smtp');
         $this->setLabel('SMTP module');
         $this->setDescription('This is the SMTP module that allows you to send emails');
+        $this->setImageUrl('http://www.inboundnow.com/wp-content/uploads/2012/12/outgoing-email-icon-300x240.jpg');
 
         // No triggers
         $this->setTriggers(array());
